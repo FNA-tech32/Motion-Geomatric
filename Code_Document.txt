@@ -1,0 +1,62 @@
+# Motion Geomatric - Website Documentation
+
+## Introduction
+This document provides an overview of the code structure, architecture, and functionality of the **Motion Geomatric** logistics and shipping web platform. The website showcases Motion Geomatric's global logistics profile through a modern, engaging interface with responsive layouts, multimedia video integration, interactive sliders, and dedicated service portals.
+
+## Website Theme & Identity
+1. **Brand Identity**: Motion Geomatric – Global Shipping & Logistics Solutions.
+2. **Homepage**: Features hero video playback transitioning into a dynamic image slider, followed by service highlights, core competitive advantages, and the Managing Director's address.
+3. **Animations & Transitions**: CSS3 animations and Ionicons transitions enhance UX across devices.
+4. **Credential Portals**: Clean user login, registration, and password recovery interface templates.
+5. **Comprehensive Service Suite**: Dedicated pages for each logistics vertical including Ocean Freight, Road Transport, Air Freight, Customs Clearance, Special Equipment (ODC), Warehousing, Door-to-Door Delivery, and Allied Services.
+6. **Cargo Tracking**: Real-time cargo tracking interface powered by the Motion Eye Watch system.
+7. **Contact & Quote System**: Web3Forms-integrated contact and quotation submission form featuring primary and alternative contact channels.
+
+## Code Structure
+### Directory & File Organization
+```
+ |---assets
+ |   |---css 
+ |      |--style.css        # Homepage stylesheet (index.html)
+ |      |--style2.css       # Service & tracking pages stylesheet
+ |      |--style3.css       # Authentication pages stylesheet (login, registration, forgot)
+ |      |--style5.css       # Contact page stylesheet (contact.html)
+ |      |--speechstyle.css  # Managing Director's speech stylesheet (speech.html)
+ |
+ |   |---js
+ |      |--script.js        # Main homepage interactions & video/slider controls
+ |      |--script2.js       # Navigation and tracking search interactions
+ |      |--script3.js       # Password toggle visibility logic
+ |      |--script4.js       # Form validation logic for registration & recovery
+ |
+ |   |---images             # High-resolution image assets, icons, and hero video
+ |
+ |---index.html             # Motion Geomatric homepage
+ |---contact.html           # Contact us & quote request page
+ |---tracking.html          # Cargo & container tracking interface
+ |---airfreight.html        # Air freight solutions page
+ |---seafreight.html        # Ocean / sea freight solutions page
+ |---roadtransport.html     # Interstate road transport solutions page
+ |---customclearance.html   # Customs clearance & documentation page
+ |---specialequipment.html  # Over-dimensional cargo (ODC) & special equipment
+ |---syseyewatch.html       # Motion Eye Watch 24/7 monitoring service
+ |---ware.html              # Warehousing & inventory solutions page
+ |---dtd.html               # Door-to-door delivery solutions page
+ |---allieds.html           # Allied logistics services page
+ |---speech.html            # Managing Director's message page
+ |
+ |---login.html             # User login portal
+ |---registration.html      # Account registration portal
+ |---forgot.html            # Password recovery portal
+ |
+ |---favicon.ico            # Motion Geomatric browser favicon
+ |---README.md              # Project documentation and setup guide
+ |---LICENSE                # MIT License
+```
+
+## Contact Channels
+- **Primary Phone**: +91 22 2757 2565
+- **Alternative Phone**: +91 98200 12345
+- **Primary Email**: info@motiongeomatric.com
+- **Alternative Email**: support@motiongeomatric.com
+- **Corporate Address**: Motion Geomatric Hub, Tower 2, 2nd Floor, CBD Railway Station Complex, Sector 11, CBD Belapur, Navi Mumbai, Maharashtra - 400614, India.

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
+   <link rel="stylesheet" href="assets/css/style5.css">
+   <!-- Tailwind CSS -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+     tailwind.config = {
+       corePlugins: {
+         preflight: false,
+       },
+       theme: {
+         extend: {
+           colors: {
+             brand: {
+               red: '#ef4444',
+               darkred: '#dc2626',
+               navy: '#0f172a',
+               accent: '#f97316'
+             }
+           }
+         }
+       }
+     }
+   </script>
+
+   <title>Motion Geomatric - Contact Us &amp; Get Quote</title>
+</head>
+<body>
+   <div class="contact">
+      <img src="assets/images/hero-banner2.jpg" alt="contact image" class="contact__img">
+
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact__form">
+         <!-- Web3Forms Access Key -->
+         <input type="hidden" name="access_key" value="ad780326-aba6-4eb1-b58e-83bc151b8340">
+         <h1 class="contact__title">Motion Geomatric</h1>
+         <p style="text-align: center; margin-top: -1.2rem; margin-bottom: 1.5rem; font-size: 0.95rem; opacity: 0.9;">
+            Contact Us &amp; Get Quote Now
+         </p>
+
+         <div class="contact__details" style="background: rgba(0, 0, 0, 0.45); border-radius: 0.75rem; padding: 1rem 1.25rem; margin-bottom: 1.5rem; font-size: 0.85rem; line-height: 1.6; border: 1px solid rgba(255, 255, 255, 0.2);">
+            <p><strong>Address:</strong> Motion Geomatric Hub, Tower 2, 2nd Floor, Sector 11, CBD Belapur, Navi Mumbai - 400614</p>
+            <p><strong>Primary Phone:</strong> <a href="tel:+912227572565" style="color: #ffb703;">+91 22 2757 2565</a></p>
+            <p><strong>Alternative Phone:</strong> <a href="tel:+919820012345" style="color: #ffb703;">+91 98200 12345</a></p>
+            <p><strong>Primary Email:</strong> <a href="mailto:info@motiongeomatric.com" style="color: #ffb703;">info@motiongeomatric.com</a></p>
+            <p><strong>Alternative Email:</strong> <a href="mailto:support@motiongeomatric.com" style="color: #ffb703;">support@motiongeomatric.com</a></p>
+         </div>
+
+         <div class="contact__content">
+            <div class="contact__box">
+               <i class="ri-user-3-line contact__icon"></i>
+
+               <div class="contact__box-input">
+                  <input type="text" name="name" required class="contact__input" id="contact-name" placeholder=" ">
+                  <label for="contact-name" class="contact__label">Name</label>
+               </div>
+            </div>
+
+            <div class="contact__box">
+               <i class="ri-mail-line contact__icon"></i>
+
+               <div class="contact__box-input">
+                  <input type="email" name="email" required class="contact__input" id="contact-email" placeholder=" ">
+                  <label for="contact-email" class="contact__label">Email</label>
+               </div>
+            </div>
+
+            <div class="contact__box">
+               <i class="ri-message-3-line contact__icon"></i>
+
+               <div class="contact__box-input">
+                  <textarea required class="contact__input contact__textarea" name="message" id="contact-message" placeholder=" "></textarea>
+                  <label for="contact-message" class="contact__label">Message &amp; Contact Number</label>
+               </div>
+            </div>
+         </div>
+
+         <div class="flex flex-col gap-3 mt-6">
+            <button type="submit" class="w-full py-3 px-4 bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white font-semibold rounded-lg shadow-lg shadow-red-900/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer border-none text-base">Submit Quote Request</button>
+            <a href="index.html" class="w-full py-2.5 px-4 text-center bg-white/10 hover:bg-white/20 text-white font-medium rounded-lg border border-white/20 transition-all block text-sm">Return to Home</a>
+         </div>
+      </form>
+   </div>
+</body>
+</html>

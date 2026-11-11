@@ -1,0 +1,6 @@
+# Ignore all desktop.ini files in all directories
+**/desktop.ini
+
+# Ignore VSCode settings folder
+config.bat
+node_modules
